@@ -1,0 +1,25 @@
+.icon {
+    width: 2rem;
+    height: 2rem;
+    fill: $color-dodger-blue-1;
+    font-size: 130px;
+}
+
+.icon--menu {
+    fill: inherit;
+    margin-left: 25px;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.icon--bell {
+    fill: $color-dodger-blue-1;
+}
+
+.icon--chart {
+    fill: $color-dodger-blue-1;
+}
+
+.icon--profile {
+    fill: $color-dodger-blue-1;
+}

@@ -1,0 +1,18 @@
+.log-in-main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/woman-and-child-in-aquarium.jpg"), linear-gradient(to right, yellow, green);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background-color: rgba(#000, 0.5);
+        z-index: -1;
+    }
+}

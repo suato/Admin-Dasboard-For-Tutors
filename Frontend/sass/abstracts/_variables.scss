@@ -1,0 +1,60 @@
+//Login Code
+$color-lemon: #fcec04;
+$color-dodger-blue-1: #4490db;
+$color-dodger-blue-2: #2494fc;
+$color-fern-green: #4c7c3c;
+$color-medium-turquoise: #4cc4bc;
+$color-shakespeare: #6098bc;
+$color-black: #040404;
+$color-white: #fff;
+$darkGray: #EAEDF3;
+$sideBar:#142850;
+$sideBar-dark:#020f27;
+$lightGray: #f4f6f9;
+//Admin Dashboard
+$primary-color: #4834d4;
+$success-color: #6ab04c;
+$warning-color: #f0932b;
+$danger-color: #eb4d4b;
+$light-color: #212529;
+$light-second-color: #727475;
+$light-background: #ffffff;
+$light-second-background: #f1f1f1;
+$dark-color: #909090;
+$dark-second-color: #f5f6fa;
+$dark-background: #23242D;
+$dark-second-background: #181818;
+$main-bg-color: $light-background;
+$second-bg-color: $light-second-background;
+$main-color: $light-color;
+$second-color: $light-second-color;
+$transparent-color: transparent;
+.bg-primary {
+    background: $primary-color;
+}
+
+.bg-success {
+    background: $light-background;
+}
+
+.bg-warning {
+    background: $light-background;
+}
+
+.bg-danger {
+    background: $light-background;
+}
+
+.bg-transparent {
+    background: $light-background;
+}
+
+/////////////////
+//Fonts
+$display-font: ff-tisa-sans-web-pro,
+sans-serif;
+$heading-font: brandon-grotesque,
+sans-serif;
+//////////////
+//Breakpoint Variables
+$bp-large: 62.5em;
